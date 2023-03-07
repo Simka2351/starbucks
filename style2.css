@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+.Content {
+  align-items: center;
+  display: flex;
+  padding-bottom: 5px;
+  border-bottom: 0.7px solid rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+}
+.Content img {
+  width: 60px;
+  margin-left: 90px;
+}
+.Content a {
+  padding: 10px;
+  font-size: 17px;
+  text-decoration: none;
+}
+.Menu {
+  align-items: center;
+  display: flex;
+}
+.sign {
+  display: flex;
+  justify-content: space-around;
+}
+.sign button {
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+}
+.button1:hover {
+  background-color: rgb(217, 217, 247);
+}
+.button2 {
+  background-color: black;
+  color: white;
+}
